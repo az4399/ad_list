@@ -1,5 +1,5 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-05-28 06:36:23 UTC
+! Last updated: 2025-05-28 12:53:52 UTC
 ! Total rules: 393580
 
 $cookie,domain=ads.stickyadstv.com
@@ -1915,24 +1915,24 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /*JmVu.js?sp=
 /*JmVu.js?tg=
 /*_theme/build/js/script.min.php$domain=clik.pw
+/.*.*.shouji.sogou.com/
+/.*.1rtb.com/
+/.*.a.market.xiaomi.com/
+/.*.ad.gameley.com/
+/.*.adintl.cn/
+/.*.adx.adwangmai.com/
+/.*.data.hicloud.com/
+/.*.log.aliyuncs.com/
+/.*.ubixioe.com/
+/.*.vlion.cn/
+/.*.yfanads.com/
+/.*.zhangyuyidong.cn/
 /.*/$permissions=browsing-topics=(),document
 /.*/$permissions=identity-credentials-get=(),document
 /.*/$permissions=join-ad-interest-group=(),document
 /.*/$permissions=private-state-token-issuance=(),document
 /.*/$permissions=private-state-token-redemption=(),document
 /.*/$permissions=run-ad-auction=(),document
-/.*\.*\.shouji\.sogou\.com/
-/.*\.1rtb\.com/
-/.*\.a\.market\.xiaomi\.com/
-/.*\.ad\.gameley\.com/
-/.*\.adintl\.cn/
-/.*\.adx\.adwangmai\.com/
-/.*\.data\.hicloud\.com/
-/.*\.log\.aliyuncs\.com/
-/.*\.ubixioe\.com/
-/.*\.vlion\.cn/
-/.*\.yfanads\.com/
-/.*\.zhangyuyidong\.cn/
 /..nt.nt\.st.+p.ay\..+/$domain=stemplay.*|steamplay.*|steanplay.*|streamp1ay.*|streanplay.*|streampiay.*|stre4mplay.*|powstream.*
 /.bootscripts/analytics.min.js
 /.webscale/rum?
@@ -2408,13 +2408,13 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /Win0xixm07/?phone=$document
 /[a-z0-9]{32,}.js/$domain=biqle.ru
 /[a-z0-9]{8,}.[a-z]{3,}/$xmlhttprequest,third-party,domain=tapeantiads.com
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
+/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com/
+/[a-zA-Z0-9.-]*-ad.sm.cn/
+/[a-zA-Z0-9.-]*-ad.video.yximgs.com/
+/[a-zA-Z0-9.-]*-ad.wtzw.com/
+/[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com/
+/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com/
+/[a-zA-Z0-9.-]*-normal.zijieapi.com/
 /[a-z]{12,}\.com\//$script,third-party,domain=swiftload.io
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -3916,7 +3916,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /clientstat?
 /cloud_theme/build/js/script.min.php$domain=clik.pw|shurt.pw
 /cloudflare.js$domain=comohoy.com|pornleaks.in|leak.sx
-/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
+/cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com/
 /cls/check.php?$image
 /cls_report?
 /clys.js?2020
