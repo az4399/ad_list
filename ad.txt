@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-05-30 06:35:55 UTC
-! Total rules: 394097
+! Last updated: 2025-05-30 12:52:51 UTC
+! Total rules: 394101
 
 $cookie,domain=ads.stickyadstv.com
 $cookie=/WZRK_/
@@ -231504,6 +231504,7 @@ zzzyk.com###Tinfo
 ||8po6fdwjsym3.com^
 ||8q88n.icu^
 ||8radc6a0m2.com^
+||8rn1y79f02-1.algolianet.com^
 ||8s32e590un.com^
 ||8s5s.com^$all
 ||8s8s.com/data/banner/
@@ -238140,6 +238141,8 @@ zzzyk.com###Tinfo
 ||ad-shield.io^$third-party
 ||ad-specs.guoshipartners.com^
 ||ad-spire.net^
+||ad-splash-tracking.hktvmall.com^
+||ad-splash.hktvmall.com^
 ||ad-srv-track.com^$third-party
 ||ad-srv.net^
 ||ad-stir.com^
@@ -309937,6 +309940,7 @@ zzzyk.com###Tinfo
 ||liuxue86.com/js/ideng/liuxue-show
 ||livabledefamer.shop^
 ||live-a-live.com^
+||live-api.hktvmall.com^
 ||live-cwc.elron.titancs.mindtitan.com/chat-web-sdk-$domain=elron.ee
 ||live-eu.blushtales.com^
 ||live-eu.cryptovot.com^
