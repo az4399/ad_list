@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-06-04 06:37:32 UTC
-! Total rules: 396349
+! Last updated: 2025-06-04 12:54:58 UTC
+! Total rules: 396352
 
 $cookie,domain=ads.stickyadstv.com
 $cookie=/WZRK_/
@@ -234128,6 +234128,7 @@ zzzyk.com###Tinfo
 ||a-mx.com^
 ||a-pagerank.net^
 ||a-pagerank.net^$third-party
+||a-qmad.qm989.com^
 ||a-reporting.nytimes.com^
 ||a-sta-cn.upltv.com^
 ||a-static.com^
@@ -237046,6 +237047,7 @@ zzzyk.com###Tinfo
 ||a5jogo.club^
 ||a5t.icu^
 ||a5xiazai.com/z/
+||a6-remad.qm989.com^
 ||a6.bjdianyue.com^
 ||a6.codejumps.com^
 ||a6.hn985.com^
@@ -368501,6 +368503,7 @@ zzzyk.com###Tinfo
 ||t-online.de/toi/html/de/img/transp.bmp?
 ||t-online.met.vgwort.de^
 ||t-pan.triodos.com^
+||t-remad.qm989.com^
 ||t-s.actemra.com^
 ||t-s.activase.com^
 ||t-s.allergicasthma.com^
