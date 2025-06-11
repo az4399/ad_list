@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-06-11 06:37:40 UTC
-! Total rules: 398859
+! Last updated: 2025-06-11 12:54:33 UTC
+! Total rules: 398860
 
 $cookie,domain=ads.stickyadstv.com
 $cookie=/WZRK_/
@@ -352349,6 +352349,7 @@ zzzyk.com###Tinfo
 ||sdk.1rtb.net^
 ||sdk.51.la^$third-party
 ||sdk.ad.smaato.net^
+||sdk.adx.adwangmai.com^
 ||sdk.airbridge.io^
 ||sdk.apester.com/*.Monetization.min.js
 ||sdk.apester.com/*.adsbygoogle.min.js
