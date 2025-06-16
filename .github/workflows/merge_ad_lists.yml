@@ -37,11 +37,11 @@ jobs:
           ad_lists = [
               "https://anti-ad.net/easylist.txt",
               "https://anti-ad.net/adguard.txt",
-              "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt",
-              "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt",
+              "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
               "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
               "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts",
-              "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts"
+              "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts",
+              "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
           ]
           
           # 用于存储所有列表内容的集合
