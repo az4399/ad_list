@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-06-18 02:06:26 UTC
-! Total rules: 254533
+! Last updated: 2025-06-18 06:37:47 UTC
+! Total rules: 254534
 
 /.*.*.shouji.sogou.com/
 /.*.1rtb.com/
@@ -96733,6 +96733,7 @@
 ||h5-telegram.vip^
 ||h5-yoo-live.com^
 ||h5-you-live.com^
+||h5.analytics.126.net^
 ||h5.dzgsdswh5.xyz^
 ||h5.hpplay.com.cn^
 ||h5.isnssdk.com^
