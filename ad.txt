@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-10-10 01:54:26 UTC
-! Total rules: 308736
+! Last updated: 2025-10-10 06:37:02 UTC
+! Total rules: 308735
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -428,6 +428,7 @@
 @@||www.msftconnecttest.com^
 @@||www.statcounter.com^
 @@||wwwimage-tve.cbsstatic.com^
+loon Shadowrocket surge配置文件对立生成
 ||*-analytics*.huami.com^
 ||*.mmstat.com^
 ||*customstat*.51togic.com^
@@ -56727,7 +56728,6 @@
 ||cdn.protect-ad.com^
 ||cdn.provesrc.com^
 ||cdn.providercheck.nl^
-||cdn.puata.info^
 ||cdn.pushalert.co^
 ||cdn.pushnews.eu^
 ||cdn.pushowl.com^
@@ -95264,7 +95264,6 @@
 ||ex.exnessstats.com^
 ||ex.m.jd.com^
 ||ex.mobmore.com^
-||ex.puata.info^
 ||ex.qq.com^
 ||ex.tanx.com^
 ||ex1tp.com^
