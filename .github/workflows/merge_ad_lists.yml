@@ -34,14 +34,14 @@ jobs:
           import time
           
           # 广告列表URL
+          # "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
           ad_lists = [
               "https://anti-ad.net/easylist.txt",
               "https://anti-ad.net/adguard.txt",
               "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
               "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
               "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts",
-              "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts",
-              "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
+              "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts"
           ]
           
           # 用于存储所有列表内容的集合
