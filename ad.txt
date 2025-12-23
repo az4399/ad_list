@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2025-12-23 02:10:52 UTC
-! Total rules: 258025
+! Last updated: 2025-12-23 06:45:00 UTC
+! Total rules: 258027
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -187981,6 +187981,7 @@
 ||sdk-api.kidoz.net^
 ||sdk-api.prado.co^
 ||sdk-cache.video.ptqy.gitv.tv^
+||sdk-config.tanx.com^
 ||sdk-log-inter.youdao.com^
 ||sdk-log-upload-os.hoyoverse.com^
 ||sdk-log.airbridge.io^
@@ -207616,6 +207617,7 @@
 ||statistics.wibiya.com^
 ||statistics.xpedite-dx.com^
 ||statisticsaccent.com^
+||statisticslinks.com^
 ||statisticsong.com^
 ||statisticsplatform.com^
 ||statisticsree.click^
