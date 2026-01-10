@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-01-10 02:10:28 UTC
-! Total rules: 246144
+! Last updated: 2026-01-10 06:39:59 UTC
+! Total rules: 246145
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -200,6 +200,7 @@
 @@||adverts.1foo.com^
 @@||afi-b.com^
 @@||alllaw.112.2o7.net^
+@@||analysis.windows.net^
 @@||analytics.amplitude.com^
 @@||analytics.itunes.apple.com^
 @@||anwb.webpower.eu^
