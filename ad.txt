@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-03-22 02:54:31 UTC
-! Total rules: 285323
+! Last updated: 2026-03-22 07:00:28 UTC
+! Total rules: 285324
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -411,6 +411,7 @@
 @@||widget.intercom.io^
 @@||widget.rave.office.net^
 @@||widget.sndcdn.com^
+@@||widget.tianqiapi.com^
 @@||widget.weibo.com^
 @@||widgets.wp.com^
 @@||www.datadoghq-browser-agent.com^
