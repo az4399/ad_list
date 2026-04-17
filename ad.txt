@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-04-17 03:31:29 UTC
-! Total rules: 298154
+! Last updated: 2026-04-17 08:00:09 UTC
+! Total rules: 298153
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -248571,7 +248571,6 @@
 ||sys.zhangyue.com^
 ||sysad.cn^
 ||sysadmin.map24.com^
-||sysdig.com^
 ||sysemabucuk.top^
 ||sysimu.com^
 ||sysimuo.com^
