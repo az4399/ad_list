@@ -78,6 +78,7 @@ jobs:
                   f.write(line + "\n")
           
           print(f"成功合并所有列表，总计 {len(all_content)} 条规则")'
+          curl https://cdn.jsdelivr.net/gh/az4399/ad_list@main/ad.txt
       
       - name: Commit and push changes
         run: |
