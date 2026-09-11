@@ -14,73 +14,82 @@ jobs:
   merge-ad-lists:
     runs-on: ubuntu-latest
 
+    container:
+      image: alpine:latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          apk add --no-cache \
+            git \
+            curl \
+            ca-certificates \
+            coreutils
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Download and merge ad lists
+        shell: sh
         run: |
-          python -c '
-          import requests
-          import time
+          set -u
 
-          ad_lists = [
-              "https://anti-ad.net/easylist.txt",
-              "https://anti-ad.net/adguard.txt",
-              "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
-              "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-              "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts",
-              "https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts"
-          ]
+          ad_lists="
+          https://anti-ad.net/easylist.txt
+          https://anti-ad.net/adguard.txt
+          https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+          https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+          https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts
+          https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts
+          "
 
-          all_content = set()
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
 
-          for url in ad_lists:
-              try:
-                  print(f"正在下载: {url}")
-                  response = requests.get(url, timeout=30)
+          for url in $ad_lists; do
+              echo "正在下载: $url"
 
-                  if response.status_code == 200:
-                      lines = response.text.split("\n")
+              file="$tmp_dir/$(printf '%s' "$url" | md5sum | cut -d' ' -f1)"
 
-                      for line in lines:
-                          line = line.strip()
+              if curl -LfsS --connect-timeout 10 --max-time 30 "$url" -o "$file"; then
+                  lines="$(wc -l < "$file")"
+                  echo "成功下载 $url, 获取 $lines 行"
+              else
+                  echo "下载失败: $url"
+              fi
 
-                          if line and not line.startswith("!") and not line.startswith("#"):
-                              all_content.add(line)
+              sleep 2
+          done
 
-                      print(f"成功下载 {url}, 获取 {len(lines)} 行")
-                  else:
-                      print(f"下载失败: {url}, 状态码: {response.status_code}")
+          {
+              echo "! Title: Merged Ad Block List"
+              echo "! Last updated: $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
 
-              except Exception as e:
-                  print(f"处理 {url} 时出错: {str(e)}")
+              total="$(
+                  grep -h \
+                    -vE '^[[:space:]]*(!|#|$)' \
+                    "$tmp_dir"/* 2>/dev/null |
+                  sed 's/^[[:space:]]*//;s/[[:space:]]*$//' |
+                  grep -v '^$' |
+                  sort -u |
+                  wc -l
+              )"
 
-              time.sleep(2)
+              echo "! Total rules: $total"
+              echo
 
-          timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+              grep -h \
+                -vE '^[[:space:]]*(!|#|$)' \
+                "$tmp_dir"/* 2>/dev/null |
+              sed 's/^[[:space:]]*//;s/[[:space:]]*$//' |
+              grep -v '^$' |
+              sort -u
 
-          header = (
-              f"! Title: Merged Ad Block List\n"
-              f"! Last updated: {timestamp} UTC\n"
-              f"! Total rules: {len(all_content)}\n\n"
-          )
+          } > ad.txt
 
-          with open("ad.txt", "w", encoding="utf-8") as f:
-              f.write(header)
+          total="$(grep '^! Total rules:' ad.txt | awk '{print $4}')"
 
-              for line in sorted(all_content):
-                  f.write(line + "\n")
-
-          print(f"成功合并所有列表，总计 {len(all_content)} 条规则")'
+          echo "成功合并所有列表，总计 $total 条规则"
 
       - name: Commit and push changes
         run: |
