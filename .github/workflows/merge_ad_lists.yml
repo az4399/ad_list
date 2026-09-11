@@ -14,23 +14,11 @@ jobs:
   merge-ad-lists:
     runs-on: ubuntu-latest
 
-    container:
-      image: alpine:latest
-
     steps:
-      - name: Install dependencies
-        run: |
-          apk add --no-cache \
-            git \
-            curl \
-            ca-certificates \
-            coreutils
-
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Download and merge ad lists
-        shell: sh
         run: |
           set -u
 
@@ -51,7 +39,12 @@ jobs:
 
               file="$tmp_dir/$(printf '%s' "$url" | md5sum | cut -d' ' -f1)"
 
-              if curl -LfsS --connect-timeout 10 --max-time 30 "$url" -o "$file"; then
+              if curl -LfsS \
+                --connect-timeout 10 \
+                --max-time 30 \
+                "$url" \
+                -o "$file"; then
+
                   lines="$(wc -l < "$file")"
                   echo "成功下载 $url, 获取 $lines 行"
               else
