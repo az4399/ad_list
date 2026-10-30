@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-10-30 05:26:21 UTC
-! Total rules: 266867
+! Last updated: 2026-10-30 12:37:00 UTC
+! Total rules: 266866
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -64038,7 +64038,6 @@
 ||datadog-service.mvfglobal.com^
 ||datadoghq-browser-agent.com^
 ||datadoghq.eu^
-||datadome.co^
 ||datadome.maisonsdumonde.com^
 ||datadrivenpromotion.com^
 ||datadrivens.protocolopumpgluteos.com.br^
