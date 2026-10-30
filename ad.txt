@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-10-30 12:37:00 UTC
-! Total rules: 266866
+! Last updated: 2026-10-30 22:09:24 UTC
+! Total rules: 266867
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -45149,6 +45149,7 @@
 ||cdn-sentry.flex-charge.com^
 ||cdn-server.cc^
 ||cdn-server.top^
+||cdn-settings.segment.com^
 ||cdn-sitegainer.com^
 ||cdn-social.janrain.com^
 ||cdn-specialdeals.g5e.com^
@@ -119815,7 +119816,6 @@
 ||litics-net.com^
 ||litiodata.net^
 ||litiosur.net^
-||litix.io^
 ||litlyx.com^
 ||litoren.com^
 ||litos.moventashop.com^
@@ -146324,6 +146324,7 @@
 ||mobile-pubt.ele.me^
 ||mobile-sentry.noon.team^
 ||mobile-sentry.workvivo.com^
+||mobile-service.segment.com^
 ||mobile-telemetry-1356052157.eu-west-1.elb.amazonaws.com^
 ||mobile-telemetry.multiball.forzafootball.net^
 ||mobile-ws.apprissmobile.com^
@@ -151453,6 +151454,7 @@
 ||nextwiss.com^
 ||nexus-analytics.com.my^
 ||nexus-track-ppr.dev.se.com^
+||nexus.ensighten.com^
 ||nexus.ensighten.tiaa.org^
 ||nexus.gomule.com^
 ||nexus.mbna.ca^
@@ -164189,7 +164191,6 @@
 ||placiditylever.com^
 ||placidocn.com^
 ||placidperson.com^
-||pladform.ru^
 ||plagiumdossman.cyou^
 ||plagoselienor.cfd^
 ||plaiappwealth.com^
