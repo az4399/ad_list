@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-11-14 13:23:19 UTC
-! Total rules: 270047
+! Last updated: 2026-11-14 22:13:53 UTC
+! Total rules: 270053
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -48605,6 +48605,7 @@
 ||client-telemetry.tutu.ru^
 ||client-telemetry.us-east-1.amazonaws.com^
 ||client-tracking.omiapp.me^
+||client-upload.cn-shanghai.log.aliyuncs.com^
 ||client.botchk.net^
 ||client.c6gj-static.net^
 ||client.hola.org^
@@ -70586,6 +70587,7 @@
 ||dtzru.colorescience.com^
 ||dtzvavrnbzemd.space^
 ||dtzwxa.com^
+||du-app.cn-hangzhou.log.aliyuncs.com^
 ||du.biqukan.com^
 ||du.dinudlejning.dk^
 ||du.jd.com^
@@ -76685,6 +76687,7 @@
 ||errandsracket.com^
 ||errdoc.gabia.net^
 ||errlak.aromame.co.kr^
+||errnewlog.umeng.com^
 ||error-analytics-production.shopifysvc.com^
 ||error-analytics-sessions-production.shopifysvc.com^
 ||error-code.jftechws.com^
@@ -119451,6 +119454,7 @@
 ||lezntf.heydudeshoesusa.com^
 ||lezplamgzs.com^
 ||leztr.giantpartners.com^
+||lf-event-manager.oceanengine.com^
 ||lf-static.tiktokpangle-cdn-us.com^
 ||lf.lelefeminine.com^
 ||lf2cgxz0b.com^
@@ -196437,6 +196441,8 @@
 ||shiftlog.com^
 ||shifu.hotstarext.com^
 ||shigellosedds.info^
+||shihuo-new.log.shihuocdn.cn^
+||shihuo.log.shihuocdn.cn^
 ||shijuezhongguo.cdn.bcebos.com^
 ||shikkentutulus.qpon^
 ||shikosharply.shop^
