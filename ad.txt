@@ -1,6 +1,6 @@
 ! Title: Merged Ad Block List
-! Last updated: 2026-11-16 05:59:30 UTC
-! Total rules: 270053
+! Last updated: 2026-11-16 15:33:56 UTC
+! Total rules: 270067
 
 *-ad.sm.cn*
 *-ad.video.yximgs.com*
@@ -16960,6 +16960,7 @@
 ||adx.adwangmai.com^
 ||adx.adxglobal.com^
 ||adx.ameba.jp^
+||adx.anythinktech.com^
 ||adx.apicgate.com^
 ||adx.apiok.net^
 ||adx.appsdk.com.cn^
@@ -19894,6 +19895,7 @@
 ||aloftriottomato.com^
 ||alog.umeng.com^
 ||alogiansear.com^
+||alogsus.umeng.com^
 ||alogus.umeng.com^
 ||aloha.musicallin.nl^
 ||alohafromdeer.com^
@@ -27002,6 +27004,7 @@
 ||android.bcfads.com^
 ||android.bigresource.com^
 ||android.bugly.prod01.amer.cros.wr.pvp.net^
+||android.bugly.qq.com^
 ||android.bugly.tencent.com^
 ||android.giveapp.jp^
 ||android.push.126.net^
@@ -37537,6 +37540,7 @@
 ||bid.axiatraders.com^
 ||bid.glass^
 ||bid.run^
+||bid.shanghailingye.cn^
 ||bid46m3.net.mydays.de^
 ||bid46nu.net.mydays.de^
 ||bid473e.net.mydays.de^
@@ -49466,12 +49470,15 @@
 ||cmzjfuaxzrpir.space^
 ||cmzno.fabtab.com^
 ||cn-ad-lgsmartad-com.aws-prd.net^
+||cn-api-sec.anythinktech.com^
 ||cn-api.anythinktech.com^
 ||cn-beijing-c.dualstack.log.usd.alibabadns.com^
+||cn-da.anythinktech.com^
 ||cn-go.experian.com^
 ||cn-hangzhou-c.dualstack.log.usd.alibabadns.com^
 ||cn-hangzhou.dualstack.log.usd.alibabadns.com^
 ||cn-qingdao.dualstack.log.usd.alibabadns.com^
+||cn-tk.anythinktech.com^
 ||cn.adpinfo.com^
 ||cn.bidushe.com^
 ||cn.hotclips.click^
@@ -58590,6 +58597,7 @@
 ||da.rus-atlas.ru^
 ||da.sat-gruppe.com^
 ||da.schwabenholz.net^
+||da.statisticslinks.com^
 ||da.style-speyer.de^
 ||da.thedigitz.com^
 ||da.ulco.de^
@@ -76687,7 +76695,10 @@
 ||errandsracket.com^
 ||errdoc.gabia.net^
 ||errlak.aromame.co.kr^
+||errlog.umeng.com^
+||errlogos.umeng.com^
 ||errnewlog.umeng.com^
+||errnewlogos.umeng.com^
 ||error-analytics-production.shopifysvc.com^
 ||error-analytics-sessions-production.shopifysvc.com^
 ||error-code.jftechws.com^
@@ -210132,6 +210143,7 @@
 ||ssai2-ads.api.leiniao.com^
 ||ssangyong.altosandes.com.pe^
 ||ssapi.agencyskin.com^
+||ssapi.anythinktech.com^
 ||ssapi.apanages-jardin.fr^
 ||ssapi.automuller.com.br^
 ||ssapi.cash-electrique.fr^
@@ -235656,6 +235668,7 @@
 ||tk.santevet.es^
 ||tk.santevet.it^
 ||tk.speedway.fr^
+||tk.statisticslinks.com^
 ||tk.svsound.com^
 ||tk.teleshopping.fr^
 ||tk.thecaseadvisors.com^
@@ -236326,6 +236339,7 @@
 ||tob-cms.bj.bcebos.com^
 ||tob-tracker.yximgs.com^
 ||tobaltoyon.com^
+||tobapplog.ctobsnssdk.com^
 ||tobecation.github.io^
 ||tobias-leben.de^
 ||tobiasrethaber.com^
